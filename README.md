@@ -1,4 +1,4 @@
-# Credit Risk Analysis
+# Credit Risk Analysis Using Supervised Machine Learning
 
 ## Overview
 For this analysis, a dataset from LendingClub was used to sample data using multiple machine learning models to assess
