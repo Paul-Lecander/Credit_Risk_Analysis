@@ -16,3 +16,24 @@ Each algorithm was analyzed by creating a confusion matrix, calculating an accur
 ### Resample Method
 #### Random Oversampling </br>
 ![RandomOverSample](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/RandomOverSample.png)</br>
+
+
+
+#### SMOTE Oversampling </br>
+![SMOTE](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/SMOTE.png)</br>
+
+#### Undersampling </br>
+![Cluster](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/Cluster.png)</br>
+
+#### Combination (Over and Under) Sampling </br>
+![SMOTEENN](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/SMOTEENN.png)</br>
+
+
+### Ensamble Method </br>
+
+#### Balanced Random Forest Classifier </br>
+![BRFC_cm_report](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Ensemble/BRFC_cm_report.png)</br>
+
+
+#### Easy Ensemble AdaBoost Classifier </br>
+![EEC](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Ensemble/EEB.png)</br>
