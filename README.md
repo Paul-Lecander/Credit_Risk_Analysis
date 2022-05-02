@@ -48,3 +48,9 @@ The F1 score for high risk was 7% and low risk was 95%.</br>
 ![EEC](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Ensemble/EEB.png)</br>
 - Accuracy score of 92.5% </br>
 - High risk category had a precision of 7% and low risk had precision of 100%. The F1 score for high risk was 14% and low risk was 97%.</br>
+
+## Summary
+
+All resample-based algorithms have a relatively poor F1 scores and accuracy scores compared to the ensemble-based algorithms. Because of those reasons, I would suggest using an
+ensemble-based algorithm to detect potential credit risk. Based on the findings, I would also suggest the Easy Ensemble AdaBoost Classifier algorithm over the Balanced Random
+Forest Classifier algorithm only because the F1 scores were better for both low and high risk.
