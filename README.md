@@ -16,14 +16,19 @@ Each algorithm was analyzed by creating a confusion matrix, calculating an accur
 ### Resample Method
 #### Random Oversampling </br>
 ![RandomOverSample](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/RandomOverSample.png)</br>
-
+- Accuracy score of 65.2%
+- High risk category had very low precision with 1% but low risk had precision of 100%. The F1 score for high risk was 2% and low risk was 81%.
 
 
 #### SMOTE Oversampling </br>
 ![SMOTE](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/SMOTE.png)</br>
+- Accuracy score of 62.4%</br>
+- High risk category had very low precision with 1% but low risk had precision of 100%. The F1 score for high risk was 2% and low risk was 80%.</br>
 
 #### Undersampling </br>
 ![Cluster](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/Cluster.png)</br>
+- Accuracy score of 51.6% </br>
+- High risk category had very low precision with 1% but low risk had precision of 100%. The F1 score for high risk was 1% and low risk was 60%.</br>
 
 #### Combination (Over and Under) Sampling </br>
 ![SMOTEENN](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/SMOTEENN.png)</br>
