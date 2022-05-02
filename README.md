@@ -32,13 +32,19 @@ Each algorithm was analyzed by creating a confusion matrix, calculating an accur
 
 #### Combination (Over and Under) Sampling </br>
 ![SMOTEENN](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Resample/SMOTEENN.png)</br>
+- Accuracy score of 63.8% </br>
+- High risk category had very low precision with 1% but low risk had precision of 100%. The F1 score for high risk was 2% and low risk was 73%.</br>
 
 
 ### Ensamble Method </br>
 
 #### Balanced Random Forest Classifier </br>
 ![BRFC_cm_report](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Ensemble/BRFC_cm_report.png)</br>
-
+- Accuracy score of 78.8% </br>
+- High risk category had slightly higher precision than any of the resample methods with 4% and low risk had precision of 100%. 
+The F1 score for high risk was 7% and low risk was 95%.</br>
 
 #### Easy Ensemble AdaBoost Classifier </br>
 ![EEC](https://github.com/Paul-Lecander/Credit_Risk_Analysis/blob/main/Images/Ensemble/EEB.png)</br>
+- Accuracy score of 92.5% </br>
+- High risk category had a precision of 7% and low risk had precision of 100%. The F1 score for high risk was 14% and low risk was 97%.</br>
